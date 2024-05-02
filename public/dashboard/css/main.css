@@ -1,0 +1,338 @@
+
+/*============================ BEGINNING OF UNIVERSAL RULE SETS (STYLES) ===================================*/
+
+    @font-face {
+        src: url(fonts/rubikReg.ttf);
+        font-family: rubikReg;
+    }
+
+    @font-face {
+        src: url(fonts/rubikMedium.ttf);
+        font-family: rubikMid;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: rubikReg;
+    }
+    
+    a{
+        text-decoration: none !important;
+        color: inherit;
+    }
+    
+    .row {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
+    input::placeholder {
+        color: #bdbebe;
+        font-size: 1em;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 2px;
+		height: 3px;
+    }
+    ::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #01050D;
+        border-radius: 5px;
+    }
+    
+    
+	
+/*============================ BEGINNING OF BASIC ID(S) ===================================*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*============================ BEGINNING OF BASIC CLASSES  ===================================*/
+
+
+
+.dashHeadingCoat{
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    z-index: 50;
+}
+
+.mobileMenuCoat{
+    width: 100%;
+    height: 55px;
+    background: #00142a;
+    padding: 0px;
+}
+ 
+.pcMenu{
+    height: 100vh;
+    width: 100%;
+    padding: 55px 0px 0px 0px;
+    background: #fff;
+    overflow-y: auto;
+    border-right: 1px solid #dfe4e6;
+}
+
+.dashMainContent{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+    background: #fafaff;
+    overflow-y: auto;
+}
+
+.pCDashTitleCoat{
+    width: 100%;
+    height: 55px;
+    background: #00142a;
+    border-right: 1px solid #0b244f;
+}
+
+.pCDashNavCoat{
+    width: 100%;
+    height: 55px;
+    background: #00142a;
+    padding: 0px;
+}
+
+.dashMenuCoat{
+    width: 100%;
+    padding: 50px 40px;
+}
+
+.pCDashNavLogout{
+    font-size: 0.9em;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}.pCDashNavLogout:hover{color: #57cbfa;}
+
+.userImage{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+}
+
+.pCDashNavWelcomeNote{
+    font-size: 0.9em;
+    color: #fff;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+}
+
+.mClose{
+    color: #e60000;
+    font-size: 1.3em;
+}
+
+.mMenuExitButton{
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    color: #fff;
+    background: linear-gradient(#d30000, #490000);
+    outline: none !important;
+    border: none !important;
+    margin: 0px;
+}
+
+.dashCoats{
+    width: 100%;
+    min-height: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px #acaeb4;
+    /* border: 1px solid #acaeb4; */
+    border-radius: 7px;
+    margin: 20px 0px 0px 0px;
+    padding: 25px;
+}
+
+.mainContentTitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #01050D;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashCoatHeadingSmall{
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+    color: #00396b;
+}
+
+.inDashLogoSmall{
+    width: 18px;
+    height: 18px;
+    margin: 0px 2px 0px 0px;
+}
+
+.dashCoatHeadingBig{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    color: #01050D;
+}
+
+.dashCoatHeadingSBig{
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 0px;
+    color: #002a7e;
+}
+
+.dashCoatHeadingMid{
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    color: #01050D;
+}
+
+table.mainTable{
+    white-space: nowrap;
+}
+
+.mainTableTdTh{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.mainPar{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+.mainPar2{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+.footerCoat{
+    width: 100%;
+    margin: 700px 0px 0px 0px;
+    text-align: center !important;
+    border-top: 1px solid #a1acb8;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerPar{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================== RANDOMLY USE CLASSES ====================*/
+
+    .blink{animation: blink 2s linear infinite;}
+    @keyframes blink{ 0%{opacity: 0;} 50%{opacity: .5;} 100%{opacity: 1;} }
+
+    .blink2{animation: blink 1s linear infinite; font-size: 00.85em !important;}
+    @keyframes blink2{ 0%{opacity: 0;} 50%{opacity: .5;} 100%{opacity: 1;} }
+
+    .green{color: #007844 !important;} .red{color: #c40000 !important;}
+    .noPad{padding: 0px;}.noMarg{ margin: 0px;}.mT10{margin-top: 10px;}.mB10{margin-bottom: 10px;}.mT25{margin-top: 25px;}.mB25{margin-bottom: 25px;}
+    .mT50{margin-top: 50px;}.mB50{margin-bottom: 50px;}.mT100{margin-top: 100px;}.mB100{margin-bottom: 100px;}.spaceFiller{width: 100%;}
+    .mT5{margin-top: 5px !important;}.mB5{margin-bottom: 5px !important;}
+
+    .blueLight{color: #00396b !important;}.blueDark{color: #01050D;}
+    .w100{width:100% !important;}
+
+    
+    select.maldoTechSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-image: url("../svgs/caret-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px auto, 100%;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 40px 7px 10px; 
+    outline: none;
+    line-height: 1.2;
+    width: 100%;
+    min-height: 30px;
+    }
+        
+        
+    div.maldoTechSelectCoat{
+        background: #f6f6f6;
+        border-radius: 10px;
+    }
+    

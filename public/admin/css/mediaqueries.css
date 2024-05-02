@@ -1,0 +1,123 @@
+/*=====================================================================================================
+============================= 0PX AND UP Iphone 4 =============================
+=====================================================================================================*/
+
+@media (min-width: 0px) {
+    
+    .logo{width:35px;height:35px;}
+    .logoTitle{font-size:0.9em;font-family: rubikMid;color:#fff;margin:0px 0px 0px 5px;padding:0px;}
+    .dashMenuLinks{font-size:0.95em;color:#00142a;display:block;margin-bottom:25px;white-space:nowrap !important;cursor:pointer;}
+    .dashMenuLinks:hover{color:#00529f;}
+    .mobileMenuIcon{font-size: 1.1em;margin: 0px;padding: 0px;color: #fff;}
+    .dashButton{padding:5px 20px;font-size:0.9em;background:linear-gradient(#004d7d, #00142a);color:#fff !important;border:none !important;border-radius:5px;outline:none !important;}
+    .dashButton:hover{background:linear-gradient(#00142a, #00142a);color:#fff !important;}
+    .dashButtonBig{padding:7px 20px;font-size:1em;background:linear-gradient(#004d7d, #00142a);color:#fff !important;border:none !important;border-radius:5px;outline:none !important;}
+    .dashButtonBig:hover{background:linear-gradient(#00142a, #00142a);color:#fff !important;}
+    .deleteButton{padding:3px 15px;font-size:0.85em;background:linear-gradient(#de0000, #750000);color:#fff !important;border:none !important;border-radius:5px;outline:none !important;margin:0px !important;}
+    .deleteButton:hover{background:linear-gradient(#750000, #750000);color:#fff !important;}
+    .mainProfilePhoto{width:100px !important;height:100px !important;border-radius:50% !important;}
+    .walletAddress{inline-size: 230px !important;overflow-wrap: break-word !important; }
+    .telegramIcon{font-size:5em;color: #004d7d;cursor:pointer;}.telegramIcon:hover{color: #000f50;}
+    .actionButton{padding:3px 15px;font-size:0.85em;background:linear-gradient(#004d7d, #00142a);color:#fff !important;border:none !important;border-radius:5px;outline:none !important;margin:0px !important;}
+    .actionButton:hover{background:linear-gradient(#00142a, #00142a);color:#fff !important;}
+}
+ 
+
+/*=====================================================================================================
+=========================== 345PX AND UP Galaxy S5 ===========================
+=====================================================================================================*/
+
+@media (min-width: 345px) {
+	
+    .logo{width:35px;height:35px;}
+    .logoTitle{font-size:0.95em;font-family: rubikMid;color:#fff;margin:0px 0px 0px 5px;padding:0px;}
+    .mobileMenuIcon{font-size: 1.2em;margin: 0px;padding: 0px;color: #fff;}
+    .walletAddress{inline-size: 280px !important;overflow-wrap: break-word !important; }
+	
+
+}
+
+
+/*=====================================================================================================
+=========================== 395PX AND UP Iphone 8+ ===========================
+=====================================================================================================*/
+
+@media (min-width: 400px) {
+	
+    .logo{width:35px;height:35px;}
+    .logoTitle{font-size:1em;font-family: rubikMid;color:#fff;margin:0px 0px 0px 5px;padding:0px;}
+    .mobileMenuIcon{font-size: 1.3em;margin: 0px;padding: 0px;color: #fff;}
+    .walletAddress{inline-size: 320px !important;overflow-wrap: break-word !important; }
+	
+}
+
+
+/*=====================================================================================================
+=========================== 570PX AND UP Blackberry Playbook ===========================
+=====================================================================================================*/
+
+@media (min-width: 570px) {
+	
+    .walletAddress{inline-size: 450px !important;overflow-wrap: break-word !important; }
+	
+	
+}
+
+
+
+/*=====================================================================================================
+=========================== 690PX AND UP Galaxy Tab S4 ===========================
+=====================================================================================================*/
+
+@media (min-width: 690px) {
+
+	
+	
+}
+
+
+/*=====================================================================================================
+=============================== TABLETS, 768PX AND UP Ipad ===============================
+=====================================================================================================*/
+
+@media (min-width: 768px) {
+
+    .walletAddress{inline-size: 600px !important;overflow-wrap: break-word !important; }
+	
+
+}
+
+
+
+/*=====================================================================================================
+=============================== SMALL DESKTOPS, 992PX AND UP Mini Laptops ===============================
+=====================================================================================================*/
+
+@media (min-width: 992px) {
+	
+
+	
+}
+
+/*=====================================================================================================
+======================== LARGE DESKTOPS, 1200PX AND UP Normal Laptops =========================
+=====================================================================================================*/
+
+@media (min-width: 1200px) {
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

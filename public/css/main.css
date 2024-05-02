@@ -1,0 +1,517 @@
+
+/*============================ BEGINNING OF UNIVERSAL RULE SETS (STYLES) ===================================*/
+
+    @font-face {
+        src: url(fonts/rubikReg.ttf);
+        font-family: rubikReg; 
+    }
+
+    @font-face {
+        src: url(fonts/rubikMedium.ttf);
+        font-family: rubikMid;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: rubikReg;
+    }
+    
+    a{
+        text-decoration: none !important;
+        color: inherit;
+    }
+    
+    .row {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
+    input::placeholder {
+        color: #9c9c9c;
+        font-size: 1em;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 2px;
+		height: 3px;
+    }
+    ::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #01050D;
+        border-radius: 5px;
+    }
+    
+    
+	
+/*============================ BEGINNING OF BASIC ID(S) ===================================*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*============================ BEGINNING OF BASIC CLASSES  ===================================*/
+
+.loginButtonCoat{
+    width: 100%;
+    height: 40px;
+    background: #000d1c;
+    text-align: center !important;
+    padding: 7px 10px !important;
+    border-bottom: 2px solid #ff8800;
+}
+
+.menuTopAccountButtons {
+    font-size: 0.9em;
+    color: #fff !important;
+    text-align: center;
+    margin: 0px 10px !important;
+    cursor: pointer;
+    white-space: nowrap;
+}.menuTopAccountButtons:hover {color: #ff8800 !important;}
+
+
+.menuCoat{
+    width: 100%;
+    min-height: 75px;
+    /*margin-top: 40px !important;*/
+    padding: 20px 0px !important;
+    border-bottom: 1px solid #e3e3e5;
+}
+
+.menuHolder{
+    width: 100%;
+}
+
+.menuLogo{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.adsMaldoriniLogoText{
+    font-size: 1.2em;
+    color: #000d1c;
+    margin: 10px 0px 0px 0px !important;
+}
+
+.orange{
+    color: #ff8800 !important;
+}
+
+.blueee{
+    color: #00468c !important;
+}
+
+.cyan{
+    color: #0057ae !important;
+}
+
+.orangeThick {
+    color: #ff5900 !important;
+}
+
+.thickBlueBack{
+    background: #00071e !important;
+}
+
+.orangeBack{
+    background: #ff8800 !important;
+}
+
+.menuLinks{
+    font-weight: bold !important;
+    color: #464e56;
+    font-size: 0.95em !important;
+    margin: 5px 10px 0px 10px !important;
+    padding: 0px !important;
+    cursor: pointer;
+    white-space: nowrap;
+}.menuLinks:hover{color: #1b1e21 !important;}
+
+.menuLinks2{
+    display: block !important;
+    font-weight: bold !important;
+    color: #002249;
+    font-size: 0.95em !important;
+    padding: 0px !important;
+    cursor: pointer;
+    white-space: nowrap;
+    width: fit-content;
+    margin: 20px auto !important;
+}.menuLinks2:hover{color: #ff8800 !important;}
+
+.menuLinksButtons{
+    color: #fff;
+    background: #00468c;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.85em !important;
+}.menuLinksButtons:hover{color:#fff !important;background:#002851 !important;}
+
+.menuLinksButtons2{
+    color: #fff;
+    background: #001e3b;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.85em !important;
+}.menuLinksButtons2:hover{color:#fff !important;background:#00080f !important;}
+
+
+
+.menuLinksButtonsMobile{
+    color: #fff;
+    background: #00468c;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.85em !important;
+    display: block;
+    width: fit-content;
+    margin: 0px auto 10px auto !important;
+}.menuLinksButtons:hover{color:#fff !important;background:#002851 !important;}
+
+.menuLinksButtons2Mobile{
+    color: #fff;
+    background: #001e3b;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.85em !important;
+    display: block;
+    width: fit-content;
+    margin: 0px auto !important;
+}.menuLinksButtons2:hover{color:#fff !important;background:#00080f !important;}
+
+
+
+
+.menuIcon{
+    font-size: 1.3em !important;
+    color: #000d1c;
+}
+
+.mobileMenuIconCoat{
+    margin: 8px 3px 0px 0px !important;
+}
+.close2{
+    color: #c40000 !important;
+    opacity: 1 !important;
+    outline: none !important;
+}
+
+.footerCoat{
+    width: 100%;
+    min-height: 200px;
+    background: #f0f0f0;
+    padding: 50px 0px 100px 0px;
+}
+
+.footerIcons{
+    color: #fff;
+    font-size: 1.3em;
+    margin: 0px 5px 0px 0px;
+}
+
+.footerAdsMaldorini{
+    color: #010025;
+    font-size: 1.1em;
+    margin: 0px !important;
+    line-height: 1;
+}
+
+.footerParMain{
+    color: #010025;
+    font-size: 0.8em;
+    margin: 0px !important;
+}
+
+.footerParSub{
+    color: #00071e !important;
+    font-size: 0.9em;
+    margin: 10px 0px 0px 0px !important;
+}
+
+.footerIconss{
+    font-size: 1.5em;
+    color: #ff8800 !important;
+    margin: 10px 2px 0px 2px;
+    cursor: pointer;
+}.footerIconss:hover{color: #ff6a00 !important;}
+
+.footerHeadings{
+    color: #00080f;
+    font-size: 1em;
+    margin: 0px 0px 10px 0px !important;
+    white-space: nowrap;
+}
+
+.footerParSub2{
+    color: #000d1c !important;
+    margin-bottom: 3px !important;
+    width: fit-content;
+    display: block;
+    cursor: pointer;
+    font-size: 0.95em;
+}.footerParSub2:hover{color: #003479 !important;}
+
+.termAnchor{
+    color: #d3d5d8 !important;
+    margin-bottom: 15px !important;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 0.95em;
+    white-space: nowrap;
+}.termAnchor:hover{color: #ff8800 !important;}
+
+.miningServersAnchor{
+    color: #d3d5d8 !important;
+    cursor: pointer;
+    font-size: 0.95em;
+    margin: 10px;
+}.miningServersAnchor:hover{color: #ff8800 !important;}
+
+.inputCoat{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid #d3d5d8;
+}
+
+.inputCoat2 {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #d3d5d8;
+}
+
+.formIcons{
+    font-size: 1.3em;
+    color: #001e40;
+}
+
+.formInputForm{
+    width: 100%;
+    height: 46px;
+    background: #fff;
+    outline: none !important;
+    border: none !important;
+    margin-left: 5px !important;
+}
+
+.submitButton{
+    width: 100%;
+    height: 50px;
+    padding: 5px 20px;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 10px;
+    background: linear-gradient(#002f64, #000d1c);
+}.submitButton:hover{background: linear-gradient(#000d1c, #000d1c);}
+
+.verifyCodeButton{
+    min-height: 20px;
+    padding: 5px 15px;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 8px;
+    background: linear-gradient(#002f64, #000d1c);
+    font-size: 0.85em;
+    margin: 5px 0px 10px 0px;
+}.verifyCodeButton:hover{background: linear-gradient(#000d1c, #000d1c);}
+
+
+.formTips{
+    font-size: 0.95em;
+    color: #001e40;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pageHeadings{
+    margin: 0px !important;
+    font-size: 2em;
+    color: #001e40;
+}
+
+.pageHeadingsMain{
+    margin: 0px !important;
+    font-size: 1.5em;
+    color: #001e40;
+}
+
+.pageHeadingsMain02{
+    margin: 0px !important;
+    font-size: 1.3em;
+    color: #001e40;
+}
+
+.parMainnest{
+    font-size: 1em;
+    margin: 0px !important;
+    color: #000d1c;
+}
+
+.parMainnest02{
+    font-size: 1.1em;
+    margin: 0px !important;
+    color: #000d1c;
+}
+
+.parMainnest03 {
+    font-size: 0.9em;
+    margin: 0px !important;
+    color: #001935;
+}
+
+.formParTitle{
+    margin: 0px 0px 5px 0px !important;
+    font-size: 0.9em;
+    color: #001e40;
+}
+
+.calRes{
+    font-size: 1.2em;
+    color: #000d1c;
+}
+
+.calIcons{
+    font-size: 1.3em;
+    color: #001e40;
+    margin: 0px;
+}
+
+.ppar{
+    font-size: 1em;
+    margin: 10px 0px 0px 0px !important;
+}
+
+.iDPar{
+    font-size: 1.15em;
+    margin: 0px !important;
+    color: #003c81;
+}
+
+.footerLogo{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 2px solid #00071e;
+}
+
+.priceListTD{
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHBronze{
+    background: #000d1c !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHSilver{
+    background: #002d60 !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHGold{
+    background: #250060 !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHPlatinum{
+    background: #004019 !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHPalladium{
+    background: #ff4400 !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.priceListTHRhodium{
+    background: #720000 !important;
+    color: #fff !important;
+    padding: 7.5px 15px !important;
+    text-align: center !important;
+}
+
+.getCreateAccount{
+    color: #fff !important;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none !important;
+    outline: none !important;
+    background: #001935;
+    padding: 7px 30px;
+    text-align: center;
+}.getCreateAccount:hover{background: #00326b !important;}
+
+.welcomeDiv{
+    width: 100%;
+    min-height: 300px;
+}
+
+.indexWelcomeNote{
+    font-size: 2.5em;
+    color: #002855;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================== RANDOMLY USE CLASSES ====================*/
+
+.blink{animation: blink 2s linear infinite;}
+    @keyframes blink{ 0%{opacity: 0;} 50%{opacity: .5;} 100%{opacity: 1;} }
+
+    
+    .noPad{padding: 0px;}.noMarg{ margin: 0px;}.mT10{margin-top: 10px;}.mB10{margin-bottom: 10px;}.mT25{margin-top: 25px;}.mB25{margin-bottom: 25px;}
+    .mT50{margin-top: 50px;}.mB50{margin-bottom: 50px;}.mT100{margin-top: 100px;}.mB100{margin-bottom: 100px;}.spaceFiller{width: 100%;}
+    .noRPad{padding-right: 0px !important;}.noRmarg{margin-right:0px !important;}.noMargBot{margin-bottom: 0px !important;}
+    .mT5{margin-top: 5px !important;}mLR10{margin-left:10px !important;margin-right:10px !important;}
+    
